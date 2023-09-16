@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/icon_w.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>West's Portfolio</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-weebly navbar_icon"></i>
+        <a href="#">WEST</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">HOME</li>
+        <li class="navbar__menu__item" data-link="#about">ABOUT</li>
+        <li class="navbar__menu__item" data-link="#skills">SKILLS</li>
+        <li class="navbar__menu__item" data-link="#work">WORK</li>
+        <li class="navbar__menu__item" data-link="#testimonials">
+          TESTIMONIALS
+        </li>
+        <li class="navbar__menu__item" data-link="#contact">CONTACT</li>
+      </ul>
+
+      <!-- toggle -->
+      <button class="navbar__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="img/west_in_paris.png"
+          alt="West's photo"
+          class="home__avatar"
+        />
+        <h1 class="home__title">Hello, I'm WEST!</h1>
+        <h2 class="home__description">A Software Engineer in korea</h2>
+        <button class="home__button" data-link="#contact">CONTACT ME</button>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="section section__container">
+      <h1>ABOUT ME</h1>
+      <p>sdsdsdasda</p>
+      <div class="about__major">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <h2 class="major__title">HTML5</h2>
+          <p class="major__description">HTML5 is the core markup language</p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-css3"></i>
+          </div>
+          <h2 class="major__title">CSS3</h2>
+          <p class="major__description">CSS3 is a style language</p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h2 class="major__title">JAVA SCRIPT</h2>
+          <p class="major__description">
+            JACA SCRIPT is object-based language.
+          </p>
+        </div>
+      </div>
+      <div class="about__schools">
+        <div class="school">
+          <i class="fas fa-school"></i>
+        </div>
+        <div class="school__info">
+          <p class="school__name">NSU Industrial Engineering</p>
+          <p class="school__period">2016~2020</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>SKILS</h1>
+        <h2>SKILS & ATTRIBUTES</h2>
+        <p>i'm sexy guy</p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">skills</h3>
+            <div class="skillset__skill">
+              <div class="skillset__skill-infor">
+                <span>HTML5</span>
+                <span>10%</span>
+              </div>
+              <div class="skillset__skill-bar">
+                <div class="skillset__skill-bar_value" style="width: 10%"></div>
+              </div>
+            </div>
+            <div class="skillset__skill">
+              <div class="skillset__skill-infor">
+                <span>CSS3</span>
+                <span>5%</span>
+              </div>
+              <div class="skillset__skill-bar">
+                <div class="skillset__skill-bar_value" style="width: 5%"></div>
+              </div>
+            </div>
+            <div class="skillset__skill">
+              <div class="skillset__skill-infor">
+                <span>JAVA SCRIPT</span>
+                <span>3%</span>
+              </div>
+              <div class="skillset__skill-bar">
+                <div class="skillset__skill-bar_value" style="width: 3%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">tools</h3>
+              <ul class="tools_list">
+                <li><span>VSC</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">etc</h3>
+              <ul class="etc_list">
+                <li><span>GIT</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <section id="work" class="section">
+      <h1>WORK</h1>
+      <h3>projects</h3>
+      <div class="work__categories">
+        <button class="category__btn seleted" data-filter="all">
+          All <span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Fornt-end<span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="back-end">
+          Back-end<span class="category__count">0</span>
+        </button>
+      </div>
+
+      <div class="work__projects section__container">
+        <a
+          href="https://github.com/WestEastZ/kokoa-clone"
+          class="project"
+          target="blank"
+          data-type="front-end"
+        >
+          <img
+            src="img/projects/kokoa_up.png"
+            alt="kokoa_clone"
+            class="project__img"
+          />
+          <div class="project_infor">
+            <h3>Kokoa-talk clone coding</h3>
+            <span>Clone coding with HTML and CSS</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/WestEastZ/chrome"
+          class="project"
+          target="blank"
+          data-type="front-end"
+        >
+          <img
+            src="img/projects/chrome_up.PNG"
+            alt="chorme coding"
+            class="project__img"
+          />
+          <div class="project_infor">
+            <h3>Chrome clone coding</h3>
+            <span>HTML, CSS, JAVA SCRIPT</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="section">
+      <h1>TESTIMONIALS</h1>
+      <h3>See what they say about me</h3>
+      <div class="section__container">
+        <div class="testimonial">
+          <img src="img/guy.png" alt="guy" class="testimonial__avatar" />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              eveniet magnam hic cum, corporis veniam ullam itaque,
+              reprehenderit rerum illum temporibus nam ipsa officia natus
+              molestiae autem omnis tempora maxime.
+            </p>
+            <p class="name"><a href="www.google.com">kim</a>/google</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium dicta nihil quasi, temporibus voluptates modi eligendi
+              repellat reiciendis accusantium est quisquam ab at officiis itaque
+              quia architecto vel repellendus delectus.
+            </p>
+            <p class="name"><a href="www.naver.com">park</a>/apple</p>
+          </div>
+          <img src="img/guy.png" alt="guy" class="testimonial__avatar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">LET'S TALK</h1>
+      <h2 class="contact__email">tjehdwn10110@naver.com</h2>
+      <div class="contact__link">
+        <a href="https://github.com/WestEastZ">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+      <p class="contact__right">2022 WEST - All right reserved</p>
+    </section>
+
+    <div class="up__arrow">
+      <i class="fa-solid fa-circle-arrow-up"></i>
+    </div>
+
+    <!-- js -->
+    <script src="nav.js" defer></script>
+    <script src="tap_btn_move.js" defer></script>
+    <script src="home_disappear.js" defer></script>
+    <script src="up__arrow.js" defer></script>
+    <script src="work.js" defer></script>
+    <script src="navbar__toggle-btn.js" defer></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4ee4db554b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

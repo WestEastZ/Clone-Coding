@@ -1,0 +1,28 @@
+.empty__message {
+  margin-bottom: 50px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.video-gird {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.account__switch {
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+  a {
+    display: block;
+    margin-top: 8px;
+    text-decoration: underline;
+  }
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}

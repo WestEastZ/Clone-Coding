@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "var.css";
+@import "common.css";
+
+/* contents*/
+@import "nav.css";
+@import "home.css";
+@import "about.css";
+@import "skill.css";
+@import "work.css";
+@import "testimonials.css";
+@import "contact.css";
+@import "media.css";

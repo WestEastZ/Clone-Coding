@@ -1,0 +1,16 @@
+extends ../base.pug
+include ../mixins/video
+
+block content
+  div.profile__data
+    if !user.avatarUrl
+      i.fa.solid.fa-user
+      h3= user.name
+    else
+      img(src="/" + user.avatarUrl).avatar
+      h3= user.name
+  div.video-gird
+    each video in user.videos
+      +mixinVideos(video)
+    else 
+      li Sorry nothing found.

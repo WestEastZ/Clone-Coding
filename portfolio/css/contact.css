@@ -1,0 +1,16 @@
+.contact__link i {
+  color: var(--color-dark-grey);
+}
+
+.contact__link {
+  margin: 20px 0px;
+}
+
+.contact__link i {
+  transition: all 300ms ease-in-out;
+}
+
+.contact__link i:hover {
+  transform: scale(1.3);
+  color: var(--color-dark-white);
+}

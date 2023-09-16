@@ -1,0 +1,30 @@
+#home {
+  padding: 40px;
+  padding-top: 150px;
+  text-align: center;
+  background-color: var(--color-grey);
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-grey);
+}
+
+.home__button {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 15px 20px;
+  border-radius: var(--size-border-radius);
+  border: 3px solid black;
+}
+
+.home__container {
+  transition: all 300ms ease-in-out;
+}
+
+#home.home__container-disappear {
+  opacity: 0;
+}

@@ -1,0 +1,15 @@
+#todo-list {
+  display: flex;
+  font-size: 28px;
+  flex-direction: column;
+}
+
+.delect-btn {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

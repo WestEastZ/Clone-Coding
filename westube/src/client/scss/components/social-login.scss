@@ -1,0 +1,12 @@
+.social-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    color: $color;
+    font-size: 50px;
+    margin: 0px 10px;
+    margin-top: 10px;
+  }
+}
